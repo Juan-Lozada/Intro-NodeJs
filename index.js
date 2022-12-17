@@ -8,12 +8,6 @@ const petType = argumentos[3];
 const petColor = argumentos[4];
 const petIllnes = argumentos[5];
 
-console.log(petName);
-console.log(petAge);
-console.log(petType);
-console.log(petColor);
-console.log(petIllnes);
-
 if (argumentos[0] !== 'registrar' && argumentos[0] !== 'leer' ) {
     console.log("Por favor, ingrese la funcion: registrar o leer." )
     return
@@ -31,8 +25,8 @@ else if (argumentos[0] === 'registrar' && argumentos.length === 6) {
 }
 else if (argumentos[0] === 'registrar' && argumentos.length === 6) {
 
-    if (petType === undefined){
-        console.log('porfavor. introduzca un valor numerico ')
+    if (petName === undefined){
+        console.log('porfavor. introduzca el nombre de la mascota')
     } else {
         registrar(petName, petAge, petType, petColor, petIllnes);
         console.log('Cita correctamente agendada')
@@ -42,7 +36,7 @@ else if (argumentos[0] === 'registrar' && argumentos.length === 6) {
 else if (argumentos[0] === 'registrar' && argumentos.length === 6) {
 
     if (petType === undefined){
-        console.log('porfavor. introduzca un valor numerico ')
+        console.log('porfavor. introduzca el tipo de mascota ')
     } else {
         registrar(petName, petAge, petType, petColor, petIllnes);
         console.log('Cita correctamente agendada')
@@ -52,7 +46,7 @@ else if (argumentos[0] === 'registrar' && argumentos.length === 6) {
 else if (argumentos[0] === 'registrar' && argumentos.length === 6) {
 
     if (petColor === undefined){
-        console.log('porfavor. introduzca un valor numerico ')
+        console.log('porfavor. introduzca el color de la mascota ')
     } else {
         registrar(petName, petAge, petType, petColor, petIllnes);
         console.log('Cita correctamente agendada')
@@ -62,7 +56,7 @@ else if (argumentos[0] === 'registrar' && argumentos.length === 6) {
 else if (argumentos[0] === 'registrar' && argumentos.length === 6) {
 
     if (petIllnes === undefined){
-        console.log('porfavor. introduzca un valor numerico ')
+        console.log('porfavor. introduzca la enfermedad de la mascota ')
     } else {
         registrar(petName, petAge, petType, petColor, petIllnes);
         console.log('Cita correctamente agendada')
