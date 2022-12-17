@@ -1,0 +1,23 @@
+[
+ {
+  "nombre": "pepe",
+  "edad": "3",
+  "tipo": "perro",
+  "color": "blanco",
+  "enfermedad": "mocos"
+ },
+ {
+  "nombre": "chocolo",
+  "edad": "4",
+  "tipo": "perro",
+  "color": "marron",
+  "enfermedad": "garrapatas"
+ },
+ {
+  "nombre": "azucar",
+  "edad": "7",
+  "tipo": "gato",
+  "color": "blanco",
+  "enfermedad": "dolor"
+ }
+]
